@@ -1,0 +1,55 @@
+/* card.css */
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .card:hover .card-img-top {
+    opacity: 0.9;
+  }
+  
+  .badge {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+  }
+  
