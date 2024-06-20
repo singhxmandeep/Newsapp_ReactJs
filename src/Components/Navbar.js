@@ -6,7 +6,7 @@ import {
 
 const Navbar = () => {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark">
+      <nav className="navbar  fixed-top navbar-expand-lg  navbar-dark bg-dark bg-slate-500">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             NewsMonkey
