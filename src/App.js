@@ -14,7 +14,6 @@ import {
 
 const App = () => {
   const pageSize = 15 ;
-  const c= "Mandeep Singh"
   const [progress, setProgress ] = useState(0)
   
 

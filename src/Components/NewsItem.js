@@ -11,7 +11,7 @@ const NewsItem = (props) => {
   useEffect(() => {
     async function fetchRandomImage() {
       const apiUrl = `https://api.unsplash.com/photos/random?client_id=${UNSPLASH_ACCESS_KEY}`;
-      console.log("Fetching image from:", apiUrl);
+      // console.log("Fetching image from:", apiUrl);
 
       try {
         const response = await fetch(apiUrl);
@@ -19,7 +19,7 @@ const NewsItem = (props) => {
           throw new Error("Failed to fetch image");
         }
         const data = await response.json();
-        console.log("Fetched image data:", data);
+        // console.log("Fetched image data:", data);
         setRandomImageUrl(data.urls.regular);
       } catch (error) {
         console.error("Error fetching random image:", error);
